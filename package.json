@@ -1,13 +1,8 @@
 {
-  "name": "taroJotaiDemo",
+  "name": "taroify-music",
   "version": "1.0.0",
   "private": true,
-  "description": "在taro小程序项目中尝试使用jotai作为状态管理工具",
-  "templateInfo": {
-    "name": "taro-hooks",
-    "typescript": true,
-    "css": "less"
-  },
+  "description": "用Taroify组件库复刻网易云音乐小程序",
   "scripts": {
     "eslint": "eslint --fix --ext .ts,.tsx src/",
     "prettier": "prettier --check src/**/*.tsx --write",
@@ -49,15 +44,15 @@
     "Android >= 4.1",
     "ios >= 8"
   ],
-  "author": "",
+  "author": "chj-damon",
   "dependencies": {
     "@babel/runtime": "^7.7.7",
     "@taroify/core": "^0.0.27-alpha.5",
-    "@tarojs/cli": "^3.4.2",
-    "@tarojs/components": "^3.4.2",
-    "@tarojs/react": "^3.4.2",
-    "@tarojs/runtime": "^3.4.2",
-    "@tarojs/taro": "^3.4.2",
+    "@tarojs/cli": "^3.4.3",
+    "@tarojs/components": "^3.4.3",
+    "@tarojs/react": "^3.4.3",
+    "@tarojs/runtime": "^3.4.3",
+    "@tarojs/taro": "^3.4.3",
     "immer": "^9.0.12",
     "jotai": "^1.6.0",
     "react": "^17.0.2",

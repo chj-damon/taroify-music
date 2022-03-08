@@ -1,10 +1,10 @@
 import { View } from '@tarojs/components';
 import Container from 'components/Container';
 
-export default function MineTab() {
+export default function Favorite() {
   return (
     <Container>
-      <View>我的</View>
+      <View>关注</View>
     </Container>
   );
 }

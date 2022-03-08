@@ -1,10 +1,10 @@
 import { View } from '@tarojs/components';
 import Container from 'components/Container';
 
-export default function HomeTab() {
+export default function Mine() {
   return (
     <Container>
-      <View>首页</View>
+      <View>我的</View>
     </Container>
   );
 }
